@@ -193,10 +193,8 @@ class War_Game:
 
 
     # Tostring for War_Game
-    # Change in Branch 3 and 4
     def __str__(self):
-        #Branch 3 change
-        result = "THE GAME IS CURRENTYLY\n"
+        result = "CURRENT GAME STATUS\n"
         for player in self.players:
             result += "%s\n\n" % player
         return result
@@ -204,11 +202,13 @@ class War_Game:
 
 class War_Player:
 
+    #Change 3 and 4
     def __init__(self, name):
         self.hand = []
         self.discard = []
         self.record = [0,0] # Wins/Losses
-        self.myname = name
+        #Change 3
+        self.myname = name + "ing"
 
     def get_name(self):
         return self.myname
