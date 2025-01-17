@@ -209,7 +209,8 @@ class War_Player:
         self.myname = name
 
     def get_name(self):
-        return self.myname + " Bob"
+        #Changing the get name method to add a word to the player's nam e
+        return "Sal" + self.myname
     
     def add_card_hand(self, my_card):
         self.hand.append(my_card)
