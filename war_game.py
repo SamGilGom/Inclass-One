@@ -83,8 +83,8 @@ class Deck:
     # Randomly shuffles the deck array seven times.
     def shuffle(self):
         self.counter = 0
-        #Changed to shuffle 10 times
-        for i in range(10):
+        #Changed to shuffle 12 times
+        for i in range(12):
             random.shuffle(self.deck)
 
     # tostring method for deck class.
