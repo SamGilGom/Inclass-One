@@ -83,8 +83,7 @@ class Deck:
     # Randomly shuffles the deck array seven times.
     def shuffle(self):
         self.counter = 0
-        #Changed to shuffle 12 times
-        for i in range(12):
+        for i in range(7):
             random.shuffle(self.deck)
 
     # tostring method for deck class.
@@ -203,11 +202,13 @@ class War_Game:
 
 class War_Player:
 
+    #Change 3 and 4
     def __init__(self, name):
         self.hand = []
         self.discard = []
         self.record = [0,0] # Wins/Losses
-        self.myname = name
+        #Change 3
+        self.myname = name + "ing"
 
     def get_name(self):
         return self.myname
