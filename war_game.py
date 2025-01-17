@@ -206,9 +206,9 @@ class War_Player:
     def __init__(self, name):
         self.hand = []
         self.discard = []
-        self.record = [0,0] # Wins/Losses
-        #Change 3
-        self.myname = name + "ing"
+        #Change 4
+        self.record = [2,5] # Wins/Losses
+        self.myname = name
 
     def get_name(self):
         return self.myname
