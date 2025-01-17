@@ -202,12 +202,12 @@ class War_Game:
 
 class War_Player:
 
-    #Change 3 and 4
     def __init__(self, name):
+        #change 5 discard starts with 8 of Diamonds
+        #change 6 discard starts with 3 of Clubs   
         self.hand = []
-        self.discard = []
-        #Change 4
-        self.record = [2,5] # Wins/Losses
+        self.discard = ["8 of Diamonds"]
+        self.record = [0,0] # Wins/Losses
         self.myname = name
 
     def get_name(self):
