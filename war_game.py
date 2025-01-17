@@ -209,8 +209,8 @@ class War_Player:
         self.myname = name
 
     def get_name(self):
-        return self.myname
-
+        return self.myname + " Bob"
+    
     def add_card_hand(self, my_card):
         self.hand.append(my_card)
 
